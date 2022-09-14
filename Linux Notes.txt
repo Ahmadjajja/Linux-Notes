@@ -63,8 +63,57 @@
 	~ Finally, the total cost of owning and maintaining a LINUX server is lower compared to windows server, in terms of licensing fess,
 	software/hardware purchase and maintenance costs, system support services and administrative costs.
 
+4) What is Kernal?
+	~Kernal is core component of every operating system.We access our hardware through Kernal.Kernal works like bridge between hardware
+	and our application.
 
+5) Kernal and User Space
+	~system memory or main divids in two parts:
+	a)Kernal space
+	b)User Space
+		~space where processes of our application are running i.e processes like gaming application , media player etc.
 
+example:-
+	~For example when we are making an application, then the code of that application is in User Space. For application running,
+	we needs kernal mode/kernal space to access hardware for running that application.
+Note:-
+	~we access Kernal space in User Space by user through System calls.
+	For example, User gives System Calls that we need this hardware. These System calls are available in C-Language.
+	Standard library uses in linux for that calls is call GNU-C-LIBRARY.
+GNU-C-LIBRARY:-
+	~This library contains multiple functions like print(), write() and many more permission methods like chMode(),pseudoCommand() etc.
+	Through all these functions , we accesses Kernal Space from UserSpace.
+
+6)File System
+	~Linux organizes files using a hierarchical system.
+	~Files are stored in directories and these directories can also contain other directories.
+	~When you compare the Linux file-system to windows, you will find that there are no drive letters in Linux.
+
+Commands part 1:
+/ -> Root command of linux.
+ls -> This command means that to see all content of this directory( / ).
+cd home/ -> change directory from current directory to home directory.
+~ -> tilde sign means that comes to the home page of this user.
+clear -> will clear terminal screen.
+cd .. -> Uses for to moving 1 step back
+
+Note:-
+	~we can't go to that directory that is not nested of this current directory.
+
+mkdir directoryName -> make directory/folder command means that this will create new directory/folder in this current directory/folder.
+touch app.txt -> This will create app.txt file in this current directoy.
+vi app.txt -> this command will Add or Edit this file
+	~insert mode -> insert mode turn on using i command.
+	~pressing esc button -> we press this button to move out from insert mode.
+	~pressing shift + colon -> we press this to save our file
+	~w for write and then q for quit -> press w for write and then q for quit to quit from editor mode.
+cat app.txt-> this command print the all content in current file app.txt
+
+note:- 
+terminal support this vi editor to ADD or EDITS files.
+After getting into editor we should need to switch to different modes like insert mode using i command.
+
+Commands part 2:
 
 
 
