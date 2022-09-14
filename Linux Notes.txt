@@ -1,0 +1,71 @@
+								---LINUX---
+
+
+
+1) primary Objective
+
+	a) Convenience(Windows and Macos)
+	b) Throughput(Linux)
+		~uses for executing number of tasks per unit time
+		~Linux is faster than windows(Opening More than 1 tabs in browser)
+
+2) Major Functionalities
+
+	a) Resource Management
+
+	~Resource management works when multiple users connected from a single machine like server.
+	~Especially it use where parallel users connected from a machine.
+
+	b) Process Management
+
+	~If we have multiple applications/process running at a time like media player, browser, gaming app,
+	OS manages it using CPU SCHEDULING
+
+	c) Storage Management(Hard drive)
+	
+	~Store data in drive using file system.
+
+	d) Memory Management(RAM)
+
+	~All process first come in  RAM before execution.
+	~RAM allocate memory and send it to CPU.
+	~CPU executes the program/application
+
+	e)Security Management
+	
+	~Operating System refers to specified steps or measures used to protect the OS from threats, viruses, 
+	worms, malware or remote hacker intrusions.
+	~Check the authentication.
+
+3) why linux is better than WINDOWS for SERVERS?
+
+	1)Free and Open Source 
+ 	
+	~Linux is free and open source; we can see the source code used to create Linux(kernal).
+	
+	2)Stability and Reliability
+	
+	~Linux is Unix-based and Unix was origionally designed to provide an environment that's powerful, stable and reliable yet easy to use.
+	Linux systems are widely known for their stability and reliability , many Linux servers on the internet have been running for years 
+	without failure or even being restarted.
+
+	3)Security 
+
+	~Linux is without doubt the most secure kernal out there, making linux based operating systems secure and suitable for servers.
+	
+	4) Flexibility
+
+	~Linux is so powerful and flexible. You can tune it to meet you server needs: it allows you to do whatever you want (if possible).
+	You can install a GUI or simply operate your server via a terminal only.
+	~ we  can make our own OS using linux kernal according to our requirements.
+	
+	5) Cost and maintenance
+	~ Finally, the total cost of owning and maintaining a LINUX server is lower compared to windows server, in terms of licensing fess,
+	software/hardware purchase and maintenance costs, system support services and administrative costs.
+
+
+
+
+
+
+
