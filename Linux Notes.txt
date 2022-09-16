@@ -71,7 +71,7 @@
 	~system memory or main divids in two parts:
 	a)Kernal space
 	b)User Space
-		~space where processes of our application are running i.e processes like gaming application , media player etc.
+		~space where processes of our application are running i.e processes like gaming application , media player or any other application etc.
 
 example:-
 	~For example when we are making an application, then the code of that application is in User Space. For application running,
@@ -120,6 +120,15 @@ rm app.txt -> This command will remove app.txt from current directory/folder.
 man ls -> this command will provide the detail of specific(ls command).
 find /home/daniyal/Desktop/cloud-native-2/cli/ "app.txt*" -> This command will search our directory/folder or file.(* means how many files exist here with this name and search that files).
 find /home/daniyal/Desktop/cloud-native-2/cli/ -name "app.txt" ->If app.txt exists in this directory then This command will return the path of that file. otherwise return nothing.
+cd . => uses for exiting from current folder.
+pwd => this command will show current path of the directory.
 
 
+7)UBUNTU Installation Guide
+
+Linux Flavours:-
+	~Suci, fedora, genome, kaali and Ubuntu.
+Ubuntu is easy to install, easy to use and update & support is much faster.
+
+	
 
