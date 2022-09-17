@@ -168,6 +168,94 @@ Note:-
 	4) arrow up =>we can see our last command
 
 
+
+Files Directory and Editor:-
+
+24) touch myFile.txt => this command will create a new file in Current directory.
+
+	vi editor :-
+		~this is default editor of Linux.
+
+25) vi myFile.txt => this command will open the vi editor for editing files.
+	i -> By pressing i , we moves into insert mode.Then we can write in this file.
+	Esc -> By pressing Esc key,we moves out from insert mode to save the file.
+	shift + ; -> By pressing this command, we saves our current working file.
+	:wq -> By this (write and quit) command , we quit from editor mode.If we quited successfuly, It means data edited successfuly.
+	cat myFile.txt -> This command prints all data in that file.
+
+26) mkdir cnc-practice => This command will create a new directory/folder.
+
+
+Scripting:-
+
+27)Script writing flow flow 
+	1) touch simple.sh
+	2) vi simple.sh
+	3) press i
+	4) start writing your script here like this
+		#!/bin/bash
+		echo my first name is : $1        //1 is serves as parameter and script is serves as function like any programming function script that can be uses later.
+		echo my last name is : $2
+	5) press Esc key to moving out from inserting mode.
+	6) press shift ; command to saving our script.
+	7) press :wq to quit from our insert mode.
+	8) ./simple.sh daniyal nagori => by using this command, we enters into this command and pass parameters and then press enter to result.
+		~There will be 1 error of permission denied.
+
+	3 permissions:-
+		~ There are three permissions of files are as follow:
+			1)read
+			2)write
+			3)executable
+
+	Note: Normal user just have read write permissions and no have any other permisisons like system changes etc.
+
+File permissions:-
+	We gives permission to our files through some numeric values that are as follows: 
+		0 no permission
+		1 executable permission
+		2 write permisson
+		4 read permission
+
+	9)ls -l => This command is uses for checking out permissions on current file(simple.sh)
+		~permissions looks like -rw-rw-r-- 1
+		Three classes here:-
+			1)-rw => File owner permissions
+			2)-rw => Group permissions
+			3)-r  => Other user's permissions
+
+	Note:- 
+	 	//Below command is very important so far
+
+	10)chmode => By using this command,we can give and take permission to any file.
+
+	
+		7 = 1 (executable permission) + 2(write permission) + 4(read permission)
+	11) chmode 777 simple.sh => 1st 7 gives all permissions to 1st class, 2nd 7 to second class and 3rd 7 to 3rd class.
+Conclusion Command:-
+
+	12) ./simple.sh daniyal nagori => by using this command, we enters into this command and pass parameters and then press enter to result.
+		Result:-
+		~my first name is: daniyal
+		~my last name is: nagori
+	this above commands working perfectly fine because all permissions have been given to this file.
+	13) chmode 477 simple.sh => 1st 4 gives read permission to 1st class, 2nd 7 gives all permissions to second class and 3rd 7 gives all permissions to 3rd class.
+	
+	Note:-
+		4 permissions means that we give just read only permission.
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 
 
