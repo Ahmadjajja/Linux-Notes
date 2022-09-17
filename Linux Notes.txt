@@ -285,13 +285,61 @@ CPU INFORMATION AND HARD DISK SPACE:-
 52) du -s => this command provides the total size of current directory.
 53) du -s -h => this command provides the total size of current directory with total size unit (88k , Like K is unit here)
 
+Install Software package manager:-
+
+	what is shell?       //confuion 
+	~Shell executes our files and run our states.
+
+54) apt-get install <packge-name> => will install the package
+	~ example: apt-get install cpuid
+	Result: will be error, we remove error by adding sudo at start.
+
+	~ sudo apt-get install cpuid
+		we first need to add password and then package will be installed.
+
+55) sudo apt-remove <package-name> => will remove the package
+
+56) sudo apt-cache search python(few letters of package) => uses for installing the package about which we don't have enough (naming) detail.
 
 
+Create Custom Commands:-
+	~converting long commands to short commands
+
+57) alias myfile="touch myfile.txt" => This command will create custom command named as myfile.
+58) unalias myfile => This command will remove the custom command(myfile).
+
+ 
+USER MANAGEMENT:-
+	~How to create users , change password and delete the user?
+Note:-
+	~File system of linux operating system is executed from root(/).
+ 
+
+59) sudo useradd Ahmad -m => This command will create the user 👤 named as Ahmad.
+60)  sudo passwd Ahmad => By using this command we can give password to user Ahmad.
+61) sudo userdel Ahmad -r => This command will delete the user Ahmad.
+
+ESSENTIAL COMMANDS:-
+	~These commands are very basic and important!
+
+62) info ls => tells us information about specified command(ls).This command is little rich command and provide more information than "man" command.
+63) man ls => just provide detail of specified command(ls), not provide owner information.
+64) whatis ls=> provide short description about providing keyword
+65) type ls =>  checkout location of specified commands from where they are executes.
+66) whereis ls =>  Search executable files.
+67) which man=> check files from directories and will return path variable.
+68) bg => Display background running processes.
+69) free => Checks free memory
+70) free -h => Checks free memory(-h means that content will display in human readable form).
+71) ps => display running processes (display in that form    PID TTY TIME CMD).
+72) kill processId(6775) => Kill specified processes with id 
+73) top => provides list of all processes and memory of all processes.
+74) reboot => Restart the system
+75) shutdown => shutdown the system
+76) nice => display low priority programs.
 
 
-
-
-
+		 	#Alhamdulillah Tutorial Of Danial Nagori is Completed.
 
 
 
