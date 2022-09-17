@@ -232,7 +232,8 @@ File permissions:-
 	
 		7 = 1 (executable permission) + 2(write permission) + 4(read permission)
 	11) chmode 777 simple.sh => 1st 7 gives all permissions to 1st class, 2nd 7 to second class and 3rd 7 to 3rd class.
-Conclusion Command:-
+	
+	Conclusion Command:-
 
 	12) ./simple.sh daniyal nagori => by using this command, we enters into this command and pass parameters and then press enter to result.
 		Result:-
@@ -243,6 +244,31 @@ Conclusion Command:-
 	
 	Note:-
 		4 permissions means that we give just read only permission.
+
+General Commands:-
+
+28) uptime => Uses for checking out from how much time my system is running.
+29) uname => uses for checking out the name of operating system	
+30) uname -srv => uses for checking out the name,release and version of operating system
+31) man command-name(ls) => This command uses for seeing detail of specified command.
+32) cd ~ => Moves our control to the root directory/folder.
+33) cd .. => this command moves our control to one step back.
+34) pwd => this command prints the path of our current working directory.
+35) hostname => this command will show the host name of the system.
+36) hostname -i => this command will show ip address of our system.
+	IP address:
+		~a unique string of characters(127.0.1.1) that identifies each computer using the Internet Protocol to communicate over a network.
+37) date => will show current date and time.
+38) cal => will show calender
+39) w => use this command to see which user is online.
+
+
+
+
+
+
+
+
 
 
 
