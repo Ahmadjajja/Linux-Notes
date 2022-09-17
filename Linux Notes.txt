@@ -262,7 +262,17 @@ General Commands:-
 38) cal => will show calender
 39) w => use this command to see which user is online.
 
+Copy Move and Remove:-
 
+40) cp filename path => this command will copy the current file into specified directory.
+41) mv filename path =>this command will move the current file into specified directory.
+42) rm filename => this command will remove the current file.
+
+Search using command line:-
+
+43) find path -name "directory-name/file-name" => this command will find directory/file-name at specified location.
+44) find path -name "linux*" => this command => This command will find the "directory/file" that start with linux , it doesn't matter what is behind of linux.
+45)
 
 
 
