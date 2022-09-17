@@ -271,8 +271,21 @@ Copy Move and Remove:-
 Search using command line:-
 
 43) find path -name "directory-name/file-name" => this command will find directory/file-name at specified location.
-44) find path -name "linux*" => this command => This command will find the "directory/file" that start with linux , it doesn't matter what is behind of linux.
-45)
+44) find path -name "linux*" =>  This command will find the "directory/file" that start with linux , it doesn't matter what is behind of linux.
+
+CPU INFORMATION AND HARD DISK SPACE:-
+
+45) uname -a => this command gives detail about operating system information , CPU information like processor name.
+46) uname -p => checks processor
+47) lscpu => provides all architecture cpu information.
+48) cat /proc/cpuinfo => provides CPU information in more detail.
+49) df => provides information about used space/ the space that used by mounted devices.
+50) df -h => will show information about used space in human readable form.
+51) du =>  this command provides the size of used files in current directory.
+52) du -s => this command provides the total size of current directory.
+53) du -s -h => this command provides the total size of current directory with total size unit (88k , Like K is unit here)
+
+
 
 
 
