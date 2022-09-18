@@ -66,6 +66,7 @@
 4) What is Kernal?
 	~Kernal is core component of every operating system.We access our hardware through Kernal.Kernal works like bridge between hardware
 	and our application.
+	~Directly talk with Kernal.
 
 5) Kernal and User Space
 	~system memory or main divids in two parts:
@@ -217,7 +218,7 @@ File permissions:-
 		2 write permisson
 		4 read permission
 
-	9)ls -l => This command is uses for checking out permissions on current file(simple.sh)
+	9)ls -l => This command is uses for checking out permissions in current directorie's  directory and files(simple.sh) permission.
 		~permissions looks like -rw-rw-r-- 1
 		Three classes here:-
 			1)-rw => File owner permissions
@@ -338,6 +339,15 @@ ESSENTIAL COMMANDS:-
 75) shutdown => shutdown the system
 76) nice => display low priority programs.
 
+Hiding files:-d
+77) _filename.extention => file will be hidden.
+	~_file.txt => This file will be hidden.
+78) ls -a => This command uses for seeing hidden files.
+79) mkdir -p => This command will make parent folder in child folder of another parent folder.
+80) rmdir direntory-name => This command will remove the specified directory if that directory is empty.
+	Note:- 
+		For removing directory using rmdir command, that directory should be empty.
+81) rmdir -p Linux/ahmad/ => This command will remove whole working tree.
 
 		 	#Alhamdulillah Tutorial Of Danial Nagori is Completed.
 
