@@ -371,8 +371,14 @@ Hiding files:-d
 
 			Working with file content
 
-87) 
+87) head fileName(file.txt) => This command will print the first 10 lines of specified file.
+88) tail fileName(file.txt) => This command will print the last 10 lines of specified file.
+89) cat => This command concatenates and print(full file content) on the standard output.
+	
+Very important command !
 
+90) echo The >text1.txt => this command will create file (text1.txt) and add some text (The) into this file.
+91) cat text1.txt text2.txt text3.txt => This command will the content of all commands in sequence on new lines.
 
 
 
