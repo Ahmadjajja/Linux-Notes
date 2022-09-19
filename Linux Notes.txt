@@ -171,6 +171,9 @@ Note:-
 
 
 Files Directory and Editor:-
+NOTE:-
+	~All files on the linux OS are case sensitive.
+	~Linux OS doesn't use file extention to determine the file type.
 
 24) touch myFile.txt => this command will create a new file in Current directory.
 
@@ -189,7 +192,7 @@ Files Directory and Editor:-
 
 Scripting:-
 
-27)Script writing flow flow 
+27)Script writing flow
 	1) touch simple.sh
 	2) vi simple.sh
 	3) press i
@@ -339,6 +342,14 @@ ESSENTIAL COMMANDS:-
 75) shutdown => shutdown the system
 76) nice => display low priority programs.
 
+
+
+			#Alhamdulillah Tutorial Of Danial Nagori is Completed.
+
+
+			#Alhamdulillah Notes from FreeCodeCamp Course
+
+
 Hiding files:-d
 77) _filename.extention => file will be hidden.
 	~_file.txt => This file will be hidden.
@@ -348,14 +359,19 @@ Hiding files:-d
 	Note:- 
 		For removing directory using rmdir command, that directory should be empty.
 81) rmdir -p Linux/ahmad/ => This command will remove whole working tree.
+82) rm => remove files or directory.
+83) rm -rf (recursive force) Test => This command will force this command to remove.
 
-		 	#Alhamdulillah Tutorial Of Danial Nagori is Completed.
+			copy and move commands:-
+
+84) mv file.txt file2.txt => This file is used to rename file file.txt to file2.txt		 	
+85) cp file4.txt ../file3.txt => This command will copy the specified file ( file4.txt ) to previous directory with This name(file3.txt).
+86) mv test Test => This command will Rename the directory from test to Test.
 
 
+			Working with file content
 
-
-
-
+87) 
 
 
 
