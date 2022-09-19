@@ -93,7 +93,7 @@ GNUC-LIBRARY:-    I think this library similar like #include<stdio.h>
 	~When you compare the Linux file-system to windows, you will find that there are no drive letters in Linux.
 
 Commands part 1:
-1) / -> Root command of linux.
+1) / -> Root command of linux. All files/directories are stored under this root command.
 2) ls -> This command means that to see all content of current(specified address) directory( / ).
 3) cd home/ -> change directory from current directory to home directory.
 4) ~ -> tilde sign means that comes to the home page of this user.
@@ -386,16 +386,53 @@ Very important command !
 95) more newFile.txt => This file uses for watching page by page content in percentage(In ascending order).
 96) less newFile.txt => Opposite to "more" command.
 
+			Linux File Structure
+Linux file structure under / (home) command is as follow:
 
+1) bin 
+	~This is where most of our binary files are stored(this means linux terminal commands (pwd, cd , cp and mv) and core utilities . All are stored in this file)
+2) boot 
+	~Very important directory
+	~You don't want to go play an around in this directory
+	~This where all the needed files for linux to boot are kept.  //What is boot?
+	~Bootfiles which is a small program that allows u to select the operating system and boot the operating system.
+3) cdrom
+	~This is where our CD derive is stored.
+	~Any time when we put a CD Disk into our Linux operating system, It will show under cdrom directory.
+4) dev
+	~This is where all our physical devices are mounted(located).So all our whole derives , USB, Optical Derives as well as CD derive(cdrom specified for CD derive But it can also store in dev directory depending on distributions) can be stored in this file.
+	~Different distributions stored things in different places.\
+	~ Sometimes we stored all these files when we have different partitions        //little Confusion.
+5) etc 
+	~This is where are the configuration files are stored and this is for all the application that are installed on the linux operating system.
+	~If we want to install apachi server well that files are stored under the etc directory.
+	~Most of the configuration files have extentions .conf
+6) home 
+	~This is where all the user name folders are stored. So, anytime new user is created on system depended on if there the option is selected or not.
+	 and This is where documents, photos, Videos files that all stored under that users home directory which is stored under this home folder.
 
-
-
+7) lib
+	~he /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the
+	 commands in the root filesystem,
 	
+8) media 
+	~The /media directory contains subdirectories where removable media devices inserted into the computer are mounted. For example, when you insert a
+	 CD into your Linux system, a directory will automatically be created inside the /media directory. You can access the contents of the CD inside this
+	 directory.
+9) opt 
+	~Traditionally, the /opt directory is used for installing/storing the files of third-party applications that are not available from the distribution’s
+	 repository. The normal practice is to keep the software code in opt and then link the binary file in the /bin directory so that all the users can run it.
 
+Very important command
 
+10) proc 
+	~ It contains the useful information about the processes that are currently running,
+	 it is regarded as control and information centre for kernel.
+	 The proc file system also provides communication medium between kernel space and user space.
+11) 	~The /root directory in Linux is the user folder for the system administrator or root user. Like the Windows C:Users folder, it has sub-directories for each user
+	 containing all the account's data. Like the Windows C:Users folder, it has sub-directories for each user containing all the account's data.
 
-
-
+			video about 2:00:29 hours
 
 
 	
