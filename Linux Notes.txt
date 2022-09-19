@@ -378,8 +378,13 @@ Hiding files:-d
 Very important command !
 
 90) echo The >text1.txt => this command will create file (text1.txt) and add some text (The) into this file.
+			Cat Commands
 91) cat text1.txt text2.txt text3.txt => This command will the content of all commands in sequence on new lines.
-
+92) cat text1.txt text2.txt text3.txt > all.txt => This command will create all.txt file & copy the content of first three files into all.txt file.
+93) cat > file1.txt blinking(Blinking here for writing content) ctrl+d (This command will exit the writing mode and complete the command.) => This command will create file and write some content in this file.
+94) cat file1.txt > fileToBeCopied.txt => This command will copy the first file content into another file.
+95) more newFile.txt => This file uses for watching page by page content in percentage(In ascending order).
+96) less newFile.txt => Opposite to "more" command.
 
 
 
