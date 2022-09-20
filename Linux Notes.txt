@@ -333,7 +333,7 @@ ESSENTIAL COMMANDS:-
 66) whereis ls =>  Search executable files.
 67) which man=> check files from directories and will return path variable.
 68) bg => Display background running processes.
-69) free => Checks free memory
+69) free => Checks free and used memory in the system.
 70) free -h => Checks free memory(-h means that content will display in human readable form).
 71) ps => display running processes (display in that form    PID TTY TIME CMD).
 72) kill processId(6775) => Kill specified processes with id 
@@ -445,5 +445,16 @@ Very important command
 		
 			System Information Commands
 
+1) uptime => Checking out from how much the system is running.
+2) free => Checking out free and used memory in the system.
+3) ps -A => report a snapshot(Picture(overview)) of the current processes to looking in well way.
 	
+	System Hard Disk/Hard Derive commands
+4) df =>  report file system disk space usage
+5) df -h =>  report file system disk space usage to see in human readable form.
+6) fdisk => manipulate disk partition table	
+	fdisk is a dialog-driven program for creation and manipulation of partition tables. It understands GPT, MBR, Sun, SGI and BSD partition tables.
 
+7)sudo fdisk -l => This command with sudo(sudo uses here for giving permission) uses for seeing all partitions.
+8) lsblk => checking out list block devices.
+9)top => display Linux processes
