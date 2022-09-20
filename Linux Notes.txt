@@ -458,3 +458,89 @@ Very important command
 7)sudo fdisk -l => This command with sudo(sudo uses here for giving permission) uses for seeing all partitions.
 8) lsblk => checking out list block devices.
 9)top => display Linux processes
+10) sudo apt install htop
+10) htop => interactive process viewer
+
+			Networking
+
+Install this before using writing this command => sudo apt install net-tools
+1) ifconfig => configure a network interface
+2) ip => show / manipulate routing, network devices, interfaces and tunnels
+3) ip a => 			
+
+			package manager
+1) Sudo 
+	~Sudo stands for Super user do.
+	~It is used to access restricted files in Operating System.
+Note!   ~execute a command as another user.
+	~Simplest way to related to windows operating system when we want to 
+	 run as an administrator.
+	~Typically used this sudo command for updating the system
+
+2) apt 
+	~apt provides a high-level commandline interface for the package management system.
+	~apt stands for advanced package management tool.
+3) sudo apt update
+	~used for updating the system.
+4) sudo apt upgrade 
+	~Uses for upgrading packages of the system.
+5) sudo apt search gimp
+	~This will search the repositories for gimp package.
+
+5) sudo apt search zip 
+	~uses for searching zip package and compress files
+6) sudo apt install unzip
+7) sudo apt remove gimp 
+	~This command will remove the gimp package.
+
+
+
+VERY IMPORTANT!		Text Editors
+
+ 	nano Good editor!
+1) nano => Nano's Another editor, inspired by Pico.
+
+2) nano file1.txt => This command is used for editing or adding content in file.
+
+	vim another editor!
+For using vim, First we need to install it using the following command:
+
+3) sudo apt install vim => This command uses for installing vim editor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
