@@ -262,7 +262,7 @@ General Commands:-
 36) hostname -i => this command will show ip address of our system.
 	IP address:
 		~a unique string of characters(127.0.1.1) that identifies each computer using the Internet Protocol to communicate over a network.
-37) date => will show current date and time.
+37) date => will show current date and time./
 38) cal => will show calender
 39) w => use this command to see which user is online.
 
@@ -347,7 +347,7 @@ ESSENTIAL COMMANDS:-
 			#Alhamdulillah Tutorial Of Danial Nagori is Completed.
 
 
-			#Alhamdulillah Notes from FreeCodeCamp Course
+			#Alhamdulillah Notes from FreeCodeCamp Course Started
 
 
 Hiding files:-d
@@ -506,6 +506,9 @@ VERY IMPORTANT!		Text Editors
 For using vim, First we need to install it using the following command:
 
 3) sudo apt install vim => This command uses for installing vim editor.
+4) VIM => VI IMproved, a programmer's text editor
+
+	
 
 
 
