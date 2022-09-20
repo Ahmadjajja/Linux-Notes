@@ -195,12 +195,12 @@ Scripting:-
 27)Script writing flow
 	1) touch simple.sh
 	2) vi simple.sh
-	3) press i
+	3) press i or a
 	4) start writing your script here like this
 		#!/bin/bash
 		echo my first name is : $1        //1 is serves as parameter and script is serves as function like any programming function script that can be uses later.
 		echo my last name is : $2
-	5) press Esc key to moving out from inserting mode.
+	5) press Esc key to moving out from inserting mode.  or shift 
 	6) press shift ; command to saving our script.
 	7) press :wq to quit from our insert mode.
 	8) ./simple.sh daniyal nagori => by using this command, we enters into this command and pass parameters and then press enter to result.
@@ -389,6 +389,11 @@ Very important command !
 			Linux File Structure
 Linux file structure under / (home) command is as follow:
 
+NOTE:-
+
+in / directory run :> ls -l for seeing complete detail of all inside directories.
+
+
 1) bin 
 	~This is where most of our binary files are stored(this means linux terminal commands (pwd, cd , cp and mv) and core utilities . All are stored in this file)
 2) boot 
@@ -429,11 +434,16 @@ Very important command
 	~ It contains the useful information about the processes that are currently running,
 	 it is regarded as control and information centre for kernel.
 	 The proc file system also provides communication medium between kernel space and user space.
-11) 	~The /root directory in Linux is the user folder for the system administrator or root user. Like the Windows C:Users folder, it has sub-directories for each user
+11) root
+	~The /root directory in Linux is the user folder for the system administrator or root user. Like the Windows C:Users folder, it has sub-directories for each user
 	 containing all the account's data. Like the Windows C:Users folder, it has sub-directories for each user containing all the account's data.
 
 			video about 2:00:29 hours
-
+12) run 
+	~This is where lot of devices are out of mounted when we pluggin USB derives.
+	~This is something that realy only relevent to desktop environment.
+		
+			System Information Commands
 
 	
 
