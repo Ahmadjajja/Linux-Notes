@@ -495,7 +495,7 @@ Note!   ~execute a command as another user.
 
 
 
-VERY IMPORTANT!		Text Editors
+VERY IMPORTANT!		Text Editor
 
  	nano Good editor!
 1) nano => Nano's Another editor, inspired by Pico.
@@ -506,6 +506,7 @@ VERY IMPORTANT!		Text Editors
 For using vim, First we need to install it using the following command:
 
 3) sudo apt install vim => This command uses for installing vim editor.
+
 4) VIM => VI IMproved, a programmer's text editor
 
 	#Alhamdulillah Notes from FreeCodeCamp Course Completed
