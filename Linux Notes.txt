@@ -98,7 +98,7 @@ Commands part 1:
 3) cd home/ -> change directory from current directory to home directory.
 4) ~ -> tilde sign means that comes to the home page of this user.
 5) clear -> will clear terminal screen.
-6) cd .. => Uses for to moving 1 step back
+6) cd .. => Uses for to moving 1 step back.
 7) cd . => uses for exiting from current folder.
 
 Note:-
@@ -150,7 +150,7 @@ User Roles:-
 		2)Super User
 			Super user can create, read and edit any file and also make system changes without any permission error.
 
-21) sudo su => by using this command will will login into our root user.
+21) sudo su => by using this command will login into our root user.
 
 Note:-
 	Again and Again login into root user for installation of any software is bad practice.
@@ -198,7 +198,7 @@ Scripting:-
 	3) press i or a
 	4) start writing your script here like this
 		#!/bin/bash
-		echo my first name is : $1        //1 is serves as parameter and script is serves as function like any programming function script that can be uses later.
+		echo my first name is : $1        //1 is serves as parameter variable and script is serves as function like any programming function script that can be uses later.
 		echo my last name is : $2
 	5) press Esc key to moving out from inserting mode.  or shift 
 	6) press shift ; command to saving our script.
@@ -291,7 +291,7 @@ CPU INFORMATION AND HARD DISK SPACE:-
 
 Install Software package manager:-
 
-	what is shell?       //confuion 
+	what is shell?       //confusion 
 	~Shell executes our files and run our states.
 
 54) apt-get install <packge-name> => will install the package
@@ -511,6 +511,12 @@ For using vim, First we need to install it using the following command:
 
 	#Alhamdulillah Notes from FreeCodeCamp Course Completed
 
+
+
+
+
+1) sed => a stream editor for filtering and transforming text.
+2) mawk => pattern scanning and text processing language.
 
 
 
