@@ -521,6 +521,24 @@ For using vim, First we need to install it using the following command:
 
 
 
+		==============Programming in context of Operating system in class Notes========================
+
+	argv= argument vector
+		this is basically an array,,,   argv[0] contains name of program.All game in C of pointers.
+		main(int argc, char *argv[])    //* means pointer           Note:   string = char * argv[0]   /n argv[1]  /n argv[2]
+		
+	argc= argument counter   
+		
+
+	Assignment:
+	SE assignment:
+		How it works ?
+		what is?
+		factors/functions?
+
+
+
+
 
 
 
