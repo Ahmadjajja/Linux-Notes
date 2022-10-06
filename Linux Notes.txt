@@ -536,7 +536,7 @@ For using vim, First we need to install it using the following command:
 		How it works ?
 		what is?
 		factors/functions?
-		
+Q1)		
 What is SE Linux?
 	Security-Enhanced Linux (SELinux) is a security architecture for Linux® systems that allows administrators to have more control over who can access the system.
 	
@@ -548,9 +548,21 @@ Do I need SELinux?
 	
 Does Ubuntu use SELinux?
 	By default, Ubuntu uses AppArmor and not SeLinux, which is similar in terms of performance but rather popular in terms of simplicity. However, SeLinux is known to be quite secure due to the involvement of a government agency.
+	
+What are the three states of SELinux?
+SELinux can run in one of three modes: disabled , permissive , or enforcing .
+
+Note:
+	SELinux is a software product that includes several mechanisms that protect against attacks exploiting software vulnerabilities
 
 
+Q2)
 
+How does SELinux work?
+	SELinux defines access controls for the applications, processes, and files on a system. It uses security policies, which are a set of rules that tell SELinux what can or can't be accessed, to enforce the access allowed by a policy.
+
+What are SELinux policies?
+	An SELinux policy describes the access permissions for all users, programs, processes, and files, and for the devices upon which they act.
 
 
 
