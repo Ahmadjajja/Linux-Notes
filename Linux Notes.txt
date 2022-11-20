@@ -2,7 +2,7 @@
 
  
 
-1) primary Objective
+1) primary Objective 
 
 	a) Convenience(Windows and Macos)
 	b) Throughput(Linux)
